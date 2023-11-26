@@ -356,7 +356,6 @@ resource "aws_instance" "sample-ec2-web02" {
 
 #local_fileのリソースを指定するとterraformを実行するディレクトリ内でファイル作成やコマンド実行が出来る。
 resource "local_file" "config_file" {
-  # filename = "/home/tihoutaikai2011/.ssh/config"
   filename = "/mnt/c/Users/tihou/.ssh/config"
   content  = <<-EOT
 Host bastion

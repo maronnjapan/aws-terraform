@@ -1,4 +1,6 @@
 terraform.tfvars
 .terraform
 
-.tfstate
+*.tfstate
+*.tfstate.*
+.key_pair
